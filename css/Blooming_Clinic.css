@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+#wrp{}
+#header{
+    height: 117px;
+    background-color: #3894ff30;
+    /* overflow: hidden; */
+}
+
+.head_inner{
+    /* background-color: aquamarine; */
+    width: 1300px;
+    height: 117px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.head_1{
+    float: left;
+    margin: 0 10px;
+    line-height: 117px;
+}
+.top_logo{}
+
+.top_logo > a{}
+
+.top_logo > a > img{
+    width: 94px;
+    height: 106px;
+    /* background-color: beige; */
+}
+
+.head_inner h1{}
+
+.head_inner .nav{
+    margin-left: 200px;
+}
+
+.head_inner .nav .menu{}
+
+.head_inner .nav .menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.head_inner .nav .menu li a{}
+
+.top_logo img{
+    width: 94px;
+    height: 106px;
+}
+
+.sns_logo{
+    display: inline-block;
+    line-height: 117px;
+    margin-left: 20px;
+
+}
+.sns_logo a{
+    margin-left: 10px;
+}
+
+
+.nav{
+    
+}
+.menu{
+    
+}
+
+#main{
+    background-color: beige;
+    width: 100%;
+    height: 1080px;
+    background: url("../images/bg_1-1.jpg");
+    position: relative;
+}
+
+#main {
+
+}
+
+#director{background-color: lightcoral;
+    width: 100%;
+    height: 963px;}
+#skin_clinic{
+    background-color: lightblue;
+    width: 100%;
+    height: 963px;
+}
+#signature{
+    background-color: lightgreen;
+    width: 100%;
+    height: 963px;
+}
+#map{
+    background-color: lightpink;
+    width: 100%;
+    height: 963px;
+}
+#footer{
+    background-color: gold;
+    width: 100%;
+    height: 963px;
+}
